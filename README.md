@@ -1,6 +1,6 @@
 <div>
 <div>This is a nextJS template.</div>
-<div>Live: https://aly3n.vercel.app</div>
+<div>Live: https:/mohamad-marjani.com</div>
 <div>&nbsp;A real template that all you need is to follow these simple steps:</div>
 <br /><br />
 <div><strong>1.</strong>Fork this repository. then clone your forked repo and run this command to install dependencies: "npm install"</div>

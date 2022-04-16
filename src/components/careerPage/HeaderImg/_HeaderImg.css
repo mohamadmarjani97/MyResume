@@ -18,7 +18,7 @@
       @apply w-[13.6vw] h-[14.85vw] top-[9.2vw] left-[9.5vw]  text-[3.4vw];
     }
     > button:nth-of-type(2) {
-      @apply w-[13.5vw] h-[13.6vw]  top-[39.9vw] left-[19.1vw] text-[3.2vw];
+      @apply w-[13.5vw] h-[13.6vw]  top-[30vw] left-[9vw] text-[3.2vw];
     }
     > button:nth-of-type(3) {
       @apply w-[13.5vw] h-[14.6vw] top-[18vw] left-[60.47vw] text-[5.5vw];
@@ -27,7 +27,10 @@
       @apply w-[13.5vw] h-[14.6vw] top-[17.25vw] left-[80.75vw] text-[3.9vw];
     }
     > button:nth-of-type(5) {
-      @apply w-[13.4vw] h-[14.8vw] top-[37.85vw] left-[79.85vw] text-[4.1vw];
+      @apply w-[13.4vw] h-[14.8vw] top-[7.5vw] left-[71.2vw] text-[4.1vw];
+    }
+    > button:nth-of-type(6) {
+      @apply w-[13.4vw] h-[14.8vw] top-[27.5vw] left-[70.2vw] text-[2.9vw];
     }
   }
 }

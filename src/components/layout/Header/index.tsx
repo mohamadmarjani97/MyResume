@@ -39,7 +39,7 @@ const Header: React.FC = () => {
     },
     {
       ref: "/honors",
-      text: "Honors",
+      text: "Honors & Certificates",
     },
   ];
 
@@ -98,9 +98,7 @@ const Header: React.FC = () => {
               </li>
             );
           })}
-          <li className="text-white" onClick={toTheGateHandler}>
-            <a onClick={(e) => e.preventDefault()}>ToTheGate</a>
-          </li>
+
         </ul>
       </motion.div>
     </>

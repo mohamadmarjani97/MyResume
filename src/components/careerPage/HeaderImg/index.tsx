@@ -17,6 +17,7 @@ interface props {
     eduRef: RefObject<HTMLDivElement>;
     skillsRef: RefObject<HTMLDivElement>;
     contactRef: RefObject<HTMLDivElement>;
+    publicationsRef: RefObject<HTMLDivElement>;
   };
 }
 
@@ -27,11 +28,13 @@ const HeaderImg: React.FC<props> = ({ allRefs }) => {
   const skillsBtnRef = useRef<HTMLButtonElement>(null);
   const contactBtnRef = useRef<HTMLButtonElement>(null);
   const projectBtnRef = useRef<HTMLButtonElement>(null);
+  const publicationsBtnRef = useRef<HTMLButtonElement>(null);
 
   const bioHandler = fancyBtnHandler(bioBtnRef, allRefs.bioRef);
   const skillsHandler = fancyBtnHandler(skillsBtnRef, allRefs.skillsRef);
   const eduHandler = fancyBtnHandler(eduBtnRef, allRefs.eduRef);
   const contactHandler = fancyBtnHandler(contactBtnRef, allRefs.contactRef);
+  const publicationsHandler = fancyBtnHandler(publicationsBtnRef, allRefs.publicationsRef);
   const projectHandler = () => {
     projectBtnRef.current!.style.left = "120%";
     setTimeout(() => {
@@ -86,6 +89,14 @@ const HeaderImg: React.FC<props> = ({ allRefs }) => {
         ref={projectBtnRef}
       >
         <h3>Project</h3>
+      </motion.button>
+      <motion.button
+        variants={fancyBtns}
+        custom={8}
+        onClick={publicationsHandler}
+        ref={publicationsBtnRef}
+      >
+        <h3>Publications</h3>
       </motion.button>
     </motion.div>
   );

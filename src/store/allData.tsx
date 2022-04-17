@@ -808,7 +808,7 @@ export const achievementData: achievementType[] = [
   {
     id: "001",
     title: "Second (2/21) ranked among M.S students of GIS major, Khajeh Nasir university(2020-Present)",
-    desc: "After s Semesters I ranked as the second student among M.S students of GIS major in Khajeh Nasir university",
+    desc: "After three semesters I ranked as the second student among M.S students of GIS major in Khajeh Nasir university",
   },
   {
     id: "002",
